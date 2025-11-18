@@ -36,7 +36,7 @@ nav a {
 
 
 /* Sidebar */
-.aside-panel {
+aside {
   background: #f5f5f5;
   border: 1px solid #d6d6d6;
   padding: 12px;
@@ -58,15 +58,14 @@ figure {
   width: 100%;
   height: auto;
   border: 6px solid #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
 }
 
-.caption-overlay {
+aside h2 {
   position: absolute;
   top: 12px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30%;
   padding: 6px 10px;
-  font-weight: 700;
 }
 
 /* Content area */
@@ -91,10 +90,6 @@ figure {
 .portrait {
   width: 180px;
   flex: 0 0 180px;
-}
-
-.portrait-img {
-  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
 }
 
 .links-box {
